@@ -40,12 +40,19 @@
             <div id="content">
                <form action="/action_page.php" target="_blank">
 
-                    <div class="name"> <p1> Name</p1></div>
-                    <input type="text1" name="Name"  value="John Smith">
-                    <div id="email"><p2>Email</p2></div>
-                    <input type="text2" name="Email"  value="example@gmail.com">
-                    <div id="message"><p3>Message</p3></div>
-                    <p><textarea name="Message" cols="125" rows="9"></textarea></p>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" class="name" name="Name"  placeholder="John Smith..">
+                    <br>
+
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" id="email" name="Email"  placeholder="example@gmail.com..">
+                    <br>
+
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" rows="12" cols="125"></textarea>
                     <br>
                     <input id="button" type="submit" value="Submit">
                 </form>

@@ -130,15 +130,7 @@ h1
     font-size: 10px;
 
 }
-#footer
-{
-    background-color: #666666;
-    border-top: 8px solid #4eeee5;
-    padding: 20px;
-    color: #ebebeb;
-    position: relative;
-    bottom: -90px;
-}
+
 
 #container
 {
@@ -147,8 +139,7 @@ h1
     font-size: 10px;
     text-align: center;
     color: #cccccc;
-    clear: both;
-    overflow: auto;
+    
 }
 
 li:hover
@@ -196,6 +187,16 @@ img
     float: left;
 }
 
-
+#footer
+{
+    background-color: #666666;
+    border-top: 8px solid #4eeee5;
+    padding: 20px;
+    color: #ebebeb;
+    position: relative;
+    bottom: -90px;
+    clear: both;
+    overflow: auto;
+}
 
 

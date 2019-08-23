@@ -5,34 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href=".css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div>
+    <div id="header"> 
 
-        <section>
-            <h2>Contact</h2>
-        </section>
+        <div id="name"></div>
+        
+        <div class="container">
+        
+            <div id="boxed">
+                Dennis Itua
+            </div>
+        
+            <div id="navArea">
+        
+                <ul id="nav">
+                    <a href="index.html"><li>About </li></a>
+                    <a href="portfolio.html"><li>Portfolio </li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
     </div>
+
     
-    <div class="container">
+    <div id="mainArea">
 
-            <form>
+        <div class="container page">
+    
+            <h1>Contact</h1>
+            
+    
+            <div id="content">
+               <form action="/action_page.php" target="_blank">
 
-                    <h5 id="name"> Name
-                        <input type="text" name="Name" placeholder="John smith"></h5>
+                    <div class="name"> <p1> Name</p1></div>
+                    <input id="text1" type="text1" name="Name"  value="John Smith">
+                    <div id="email"><p2>Email</p2></div>
+                    <input id="text2" type="text2" name="Email"  value="example@gmail.com">
+                    <div id="message"><p3>Message</p3></div>
+                    <p><textarea name="Message" cols="125" rows="9"></textarea></p>
+                    <br>
+                    <input id="button" type="submit" value="Submit">
+                </form>
 
-                        <h5 id="email"> Email
-                                <input type="text" name="Email" placeholder="example@gmail.com"></h5>
+            </div>
+            
+        </div>
+    </div>
 
-                                <h5 id="message">Message
-                                    <input type="text" name="message" placeholder=""></h5>
+    <div id="footer">
 
-                    <input type="submit" name="Submit">
-                    
-            </form>
+        <div id="container">Copyright &#9400;</div>
 
     </div>
-    
+
 </body>
 </html>

@@ -189,11 +189,11 @@ li:active
 
 img
 {
+    background-color: cornsilk;
     height: 200px;
     width: 30%;
     margin: 3px;
     float: left;
-    background-color: saddlebrown;
 }
 
 

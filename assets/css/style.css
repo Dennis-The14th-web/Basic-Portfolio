@@ -81,14 +81,8 @@ body
     right: -15px;
     color: lightgrey;
     font-size: 15px;
-    
+}    
 
-}
-
-#about
-{
-    border-bottom: red
-}
 
 #mainArea 
 {
@@ -191,6 +185,15 @@ li:active
     color: white;
     font-weight: 3px;
     
+}
+
+img
+{
+    height: 200px;
+    width: 30%;
+    margin: 3px;
+    float: left;
+    background-color: saddlebrown;
 }
 
 

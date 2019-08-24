@@ -48,7 +48,7 @@ body
     padding:  20px 60px;
     font-size: 25px;
     font-weight: 5px;
-}    
+} 
 
 #navArea
 {
@@ -115,6 +115,8 @@ h1
 {
     margin: opx;
     margin-right: 20px;
+    height: 150px;
+    width: 30%;
     float: left;
     
 }
@@ -184,14 +186,29 @@ li:active
     
 }
 
-img
+#image
 {
     background-color: cornsilk;
     height: 150px;
-    width: 30%;
-    margin: 3px;
-    float: left;
-}    
+    width: 29%;
+    margin: 5px;
+} 
+
+.boxed
+{
+    text-align: center;
+    color: #ffffff;
+    background-color: #4eeee5;
+    padding:  10px 50px;
+    width: 18.4%;
+    font-size: 15px;
+    font-weight: 5px;
+    position: relative;
+    bottom: -150px;
+    right: -6px;
+    
+}
+
 
 #footer
 {
